@@ -1,0 +1,24 @@
+<html>
+<head>
+	<script type="text/javascript" src="rws_common_stub.js"></script>    
+</head>
+
+<script type="text/javascript">
+
+/* 	
+	This sample goes over how to use our RWS internal AJAX call. You must use this call in your solution. 
+	Calling this function passes in a URL, an array of parameters, a boolean for asynchronous calls, and a
+	callback response handler (a function).
+*/
+
+rwsAJAXPostAJAX("https://mingle.rwsgateway.com/front-end-dev-skills-test/accounts/get", [], true, onResponse);
+
+function onResponse(response)
+{
+	$('body').append(response)
+	console.log(response);
+}
+
+</script>
+
+</html>

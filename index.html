@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JimNET</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="dropdown" class="nav-area">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Library</a></li>
+                <li class="nav-item"><a href="#">Discuss</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="login">
+        <div class="login-container">
+            <div id="login-logo">
+                <img src="images/logo.png" alt="JimNET logo">
+            </div>
+            <div class="login-form">
+                <form class="form" method="post" a>
+                    <input required type="text" name="email" id="email" placeholder="Email Address">
+                    <input required type="password" name="password" id="password" placeholder="Password">
+                    <div id="message"></div>
+                    <input type="button" name="signin" id="signin" value="Sign In">
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js">\x3C/script>')
+    </script>
+    <script type="text/javascript" src="js/rws_common_stub.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
